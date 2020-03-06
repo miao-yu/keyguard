@@ -157,7 +157,7 @@ class ImportFile {
             keyType: key.type,
             addresses,
             fileExported: true,
-            wordsExported: false,
+            wordsExported: true,
         }];
 
         this._resolve(result);
